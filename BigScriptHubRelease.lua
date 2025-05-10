@@ -94,7 +94,7 @@ local DestroyButton = Tab:CreateButton({
 local RejoinButton = Tab:CreateButton({
     Name = "Rejoin",
     Callback = function()
-    queue_on_teleport("loadstring(game:HttpGet('https://pastebin.com/raw/z8UX8UV8'))()")
+    queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Alexzavr/BigScriptHub/refs/heads/main/BigScriptHubRelease.lua'))()")
     game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
     end,
 })
@@ -118,5 +118,3 @@ local BladeBallScript1Button = ScriptTab:CreateButton({
     Rayfield:Destroy()
     end,
 })
-
-
