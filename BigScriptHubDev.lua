@@ -170,4 +170,12 @@ local BladeBallScript1Button = ScriptTab:CreateButton({
     end,
 })
 
+local GrowAGardenScript1Button = ScriptTab:CreateButton({
+    Name = "Grow A Garden Script",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenniel123/Grow-a-garden/refs/heads/main/Grow%20A%20Garden"))() -- The function that takes place when the button is pressed
+    Rayfield:Destroy()
+    end,
+})
+
 
